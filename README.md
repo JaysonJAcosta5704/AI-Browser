@@ -1,0 +1,1 @@
+This project was made to make finding and using AI tools easier for myself when I was playing around with them. This may be updated in the future but was created as a fun mini-project to practice basic HTML, CSS and JavaScript
