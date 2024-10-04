@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Browser</title>
+    <link rel="stylesheet" href="../css/dashboard.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          id="aiBrowserIcon"
+          src="../images/icon.png"
+          alt="AI Browser Icon"
+        />
+        <h1>Dashboard</h1>
+      </header>
+      <main>
+        <section id="dashboard">
+
+          <div class="category-container">
+            <div class="category" id="favorites">
+              <h2>Favorites</h2>
+              <p>Explore your favorite AI services:</p>
+              <button id="favorites">Open Favorites</button>
+            </div>
+          </div>
+          <div class="category-container">
+            <div class="category" id="top">
+              <h2>Top AIs</h2>
+              <p>Explore the Top AI services:</p>
+              <button id="top">Open Top AIs</button>
+            </div>
+          </div>
+          <div class="category-container">
+            <div class="category" id="text">
+              <h2>Text</h2>
+              <p>Explore text AI services:</p>
+              <button id="text">Open Text AIs</button>
+            </div>
+          </div>
+          <div class="category-container">
+            <div class="category" id="code">
+              <h2>Code</h2>
+              <p>Explore programming AI services:</p>
+              <button id="code">Open Coding AIs</button>
+            </div>
+          </div>
+          <div class="category-container">
+            <div class="category" id="image">
+              <h2>Image</h2>
+              <p>Explore image AI services:</p>
+              <button id="image">Open Image AIs</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <button id="welcome">Return to Welcome Page</button>
+      <footer>
+        <p>
+          Want something specific? Check out
+          <a href="https://www.futurepedia.io/ai-tools" target="_blank"
+            >futurepedia</a
+          ><br /><br />
+        </p>
+        <p>&copy; 2023 AI Browser. All rights reserved.<br /><br /></p>
+      </footer>
+    </div>
+    <script src="../js/popup.js"></script>
+  </body>
+</html>
